@@ -17,15 +17,27 @@ const Hero = () => {
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
-
+        
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
-          <div className="flex justify-end">
-            <button onClick={() => {
-                                    window.open('https://www.upwork.com/freelancers/~01617c9d950c4dcbc8')
-                                }} className="btn">{hero.btnText}</button>
+          <div className="flex justify-between items-center">
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.upwork.com/freelancers/~01617c9d950c4dcbc8"
+                );
+              }}
+              className="btn"
+            >
+              {hero.btnText}
+            </button>
+            <div    onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1Eg9Ih5-W9AQTZW08cozaiJC80DJYQOqu/view?usp=sharing"
+                );
+              }} className="underline cursor-pointer">Download Resume</div>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (

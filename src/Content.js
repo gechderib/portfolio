@@ -92,55 +92,135 @@ export const content = {
     skills_content: [
       {
         name: "Javascript",
-        para: "Lorem ipsum text  dummy",
+        para: "Proficient in core JavaScript.",
         logo: js,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "Typescript",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of TypeScript",
         logo: ts,
+        skills: {
+          "skill1":"Proficient in using TypeScript with JavaScript frameworks/libraries such as React, Angular, or Vue.js..",
+          "skill2":"Experience with TypeScript's static typing system and type annotations.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":" Knowledge of TypeScript decorators and their usage in frameworks like Angular",
+          "skill5":"Familiarity with TypeScript interfaces and type definitions.",
+          "skill6":"Understanding of TypeScript's support for modern ECMAScript features.",
+        }
       },
 
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
         logo: nodejs,
+        skills: {
+          "skill1":"EFamiliarity with the core modules provided by Node.js, such as fs, http, and path",
+          "skill2":"Express.js is a popular web application framework for Node.js.",
+          "skill3":"Node.js can work with various databases, such as MongoDB, MySQL, and PostgreSQL.",
+          "skill4":"RESTful APIs: Building and consuming RESTful APIs is a common use case for Node.js.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
         logo: reactjs,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "Next Js",
         para: "Lorem ipsum text  dummy",
         logo: next,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "React Native",
         para: "Lorem ipsum text  dummy",
         logo: native,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "Flutter",
         para: "Lorem ipsum text  dummy",
         logo: flutter,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
         logo: figma,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
 
       {
         name: "Tailwind Css",
         para: "Lorem ipsum text  dummy",
         logo: tail,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
       {
         name: "MUI",
         para: "Lorem ipsum text  dummy",
         logo: mui,
+        skills: {
+          "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
+          "skill2":"Strong understanding of asynchronous programming and Promises.",
+          "skill3":"Knowledge of ES6+ features and modern JavaScript best practices.",
+          "skill4":"Familiarity with front-end technologies like HTML5 and CSS3.",
+          "skill5":"Experience with server-side JavaScript using Node.js.",
+          "skill6":"Understanding of RESTful APIs and AJAX for data retrieval and manipulation.",
+        }
       },
     ],
     icon: MdArrowForward,

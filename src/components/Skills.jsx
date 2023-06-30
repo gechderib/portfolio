@@ -33,7 +33,6 @@ const Skills = () => {
   function closeModal() {
     setIsOpen(false);
   }
-
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
       {/* modal */}
@@ -48,16 +47,12 @@ const Skills = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
+          <li>{selectSkill?.skills.skill1}</li>
+          <li>{selectSkill?.skills.skill2}</li>
+          <li>{selectSkill?.skills.skill3}</li>
+          <li>{selectSkill?.skills.skill4}</li>
+          <li>{selectSkill?.skills.skill5}</li>
+          <li>{selectSkill?.skills.skill6}</li>
         </ul>
         <br />
         <div className="flex justify-end">
