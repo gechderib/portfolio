@@ -185,7 +185,7 @@ export const content = {
       {
         title: "Portfolio",
         image: project7,
-        link:""
+        link:"https://github.com/gechderib/portfolio.git"
       },
       {
         title: "Email Announcement",
