@@ -20,13 +20,13 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/mob.png";
 import services_logo3 from "./assets/images/Services/back.png";
 
-import project1 from "./assets/images/projects/img1.jpg";
-import project2 from "./assets/images/projects/img2.jpg";
-import project3 from "./assets/images/projects/img3.png";
-import project4 from "./assets/images/Projects/img4.jpg";
-import project5 from "./assets/images/Projects/img5.jpg";
-import project6 from "./assets/images/Projects/img6.png";
-import project7 from "./assets/images/Projects/img7.png";
+// import project1 from "./assets/images/projects/img1.jpg";
+// import project2 from "./assets/images/projects/img2.jpg";
+// import project3 from "./assets/images/projects/img3.png";
+// import project4 from "./assets/images/Projects/img4.jpg";
+// import project5 from "./assets/images/Projects/img5.jpg";
+// import project6 from "./assets/images/Projects/img6.png";
+// import project7 from "./assets/images/Projects/img7.png";
 import person_project from "./assets/images/projects/gech.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -174,38 +174,38 @@ export const content = {
     project_content: [
       {
         title: "Digital Marketing",
-        image: project1,
+        // image: project1,
         link:"https://shemeta.netlify.app/"
       },
       {
         title: "Life App",
-        image: project2,
+        // image: project2,
         link:"https://github.com/gechderib/Life_App.git"
       },
       {
         title: "Portfolio",
-        image: project7,
+        // image: project7,
         link:"https://github.com/gechderib/portfolio.git"
       },
       {
         title: "Email Announcement",
-        image: project6,
+        // image: project6,
         link:""
       },
 
       {
         title: "Hospital Management System",
-        image: project4,
+        // image: project4,
         link:"https://github.com/SolomonKassahun/-front-end-with-browser-local-storage-Hospital-Mangment-System.git"
       },
       {
         title: "Dating App",
-        image: project5,
+        // image: project5,
         link:"https://github.com/gechderib/Dating_app_RustPlusApi.git"
       },
       {
         title: "Maintenance",
-        image: project3,
+        // image: project3,
         link:"https://github.com/gechderib/Maintenance_Nodejs_Backend.git"
       },
     ],
