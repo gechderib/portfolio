@@ -33,9 +33,14 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button onClick={() => {
-                                    window.open('https://www.upwork.com/freelancers/~01617c9d950c4dcbc8')
-                                }} className="btn bg-dark_primary text-white">
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.upwork.com/freelancers/~01617c9d950c4dcbc8"
+                );
+              }}
+              className="btn bg-dark_primary text-white"
+            >
               {Hireme.btnText}
             </button>
           </div>
