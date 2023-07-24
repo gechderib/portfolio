@@ -119,10 +119,10 @@ export const content = {
 
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of NodeJs",
         logo: nodejs,
         skills: {
-          "skill1":"EFamiliarity with the core modules provided by Node.js, such as fs, http, and path",
+          "skill1":"Familiarity with the core modules provided by Node.js, such as fs, http, and path",
           "skill2":"Express.js is a popular web application framework for Node.js.",
           "skill3":"Node.js can work with various databases, such as MongoDB, MySQL, and PostgreSQL.",
           "skill4":"RESTful APIs: Building and consuming RESTful APIs is a common use case for Node.js.",
@@ -132,7 +132,7 @@ export const content = {
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of React",
         logo: reactjs,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
@@ -145,7 +145,7 @@ export const content = {
       },
       {
         name: "Next Js",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of Next Js",
         logo: next,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
@@ -158,7 +158,7 @@ export const content = {
       },
       {
         name: "React Native",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of React Native",
         logo: native,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
@@ -171,7 +171,7 @@ export const content = {
       },
       {
         name: "Flutter",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of Flutter",
         logo: flutter,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
@@ -184,7 +184,7 @@ export const content = {
       },
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of Figma Design",
         logo: figma,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
@@ -198,7 +198,7 @@ export const content = {
 
       {
         name: "Tailwind Css",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of Tailwind CSS",
         logo: tail,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
@@ -211,7 +211,7 @@ export const content = {
       },
       {
         name: "MUI",
-        para: "Lorem ipsum text  dummy",
+        para: "Strong understanding of MUI",
         logo: mui,
         skills: {
           "skill1":"Experience with JavaScript frameworks/libraries such as React, Angular, or Vue.js.",
