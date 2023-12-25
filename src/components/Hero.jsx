@@ -35,7 +35,7 @@ const Hero = () => {
             </button>
             <div    onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1SztvMvKennIcy9aaMH4clRwrtjislxe0/view?usp=sharing"
+                  "https://drive.google.com/file/d/1oweIJJt-atBzR6xdqiJxSJuQQDm8BPz5/view?usp=sharing"
                 );
               }} className="underline cursor-pointer">Download Resume</div>
           </div>
