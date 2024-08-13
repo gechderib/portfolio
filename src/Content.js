@@ -258,21 +258,20 @@ export const content = {
         link:"https://shemeta.netlify.app/"
       },
       {
-        title: "Life App",
+        title: "Kacha App",
         image: project2,
-        link:"https://github.com/gechderib/Life_App.git"
+        link:"https://play.google.com/store/search?q=kacha&c=apps"
+      },
+            {
+        title: "Dire Mfi",
+        image: project2,
+        link:"https://play.google.com/store/search?q=dire+mfi&c=apps"
       },
       {
         title: "Portfolio",
         image: project7,
         link:"https://github.com/gechderib/portfolio.git"
       },
-      {
-        title: "Email Announcement",
-        image: project6,
-        link:""
-      },
-
       {
         title: "Hospital Management System",
         image: project4,
