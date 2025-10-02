@@ -6,14 +6,11 @@
 import Hero_person from "./assets/images/Hero/gech1.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
 import ts from "./assets/images/Skills/ts.png";
 import next from "./assets/images/Skills/next.png";
-import flutter from "./assets/images/Skills/flutter.png";
 import native from "./assets/images/Skills/native.jpg";
 import js from "./assets/images/Skills/js.png";
 import mui from "./assets/images/Skills/mui.png";
@@ -72,6 +69,10 @@ export const content = {
         count: "10+",
         text: "Projects delivered across web, mobile, and backend platforms",
       },
+      {
+        count: "3+",
+        text: "FinTech projects: remittance, crowdfunding, insurance & premium financing",
+      },
     ],
   },
 
@@ -88,7 +89,6 @@ export const content = {
           skill2: "Experience with frameworks like React, Vue.js, and Node.js.",
           skill3: "RESTful API consumption and AJAX data handling.",
           skill4: "Frontend integration with HTML5 and CSS3.",
-          skill5: "Optimized DOM manipulation and state management.",
         },
       },
       {
@@ -99,7 +99,6 @@ export const content = {
           skill1: "Static typing, interfaces, generics, and decorators.",
           skill2: "Applied in large-scale React and Next.js projects.",
           skill3: "Strong type safety for backend services with Node.js.",
-          skill4: "Improved maintainability and developer productivity.",
         },
       },
       {
@@ -118,10 +117,11 @@ export const content = {
         para: "Building fast and scalable backend services.",
         logo: nodejs,
         skills: {
-          skill1: "RESTful APIs and GraphQL APIs using Express.js.",
-          skill2: "Real-time applications with WebSockets.",
+          skill1: "RESTful and GraphQL APIs with Express.js and NestJS.",
+          skill2: "Real-time applications with WebSockets and Kafka.",
           skill3: "Database integration with MongoDB, PostgreSQL, MySQL.",
           skill4: "Event-driven architecture and microservices.",
+          skill5: "FinTech experience: remittance, digital wallets, crowdfunding, and insurance APIs.",
         },
       },
       {
@@ -131,7 +131,7 @@ export const content = {
         skills: {
           skill1: "State management with Redux, Zustand, and React Query.",
           skill2: "Component-driven development and reusable UI patterns.",
-          skill3: "Integration with APIs and real-time data sources.",
+          skill3: "Integration with backend services and real-time data feeds.",
           skill4: "Performance optimization and code-splitting.",
         },
       },
@@ -151,8 +151,8 @@ export const content = {
         logo: native,
         skills: {
           skill1: "iOS and Android apps with shared codebase.",
-          skill2: "Integration with native APIs and third-party libraries.",
-          skill3: "Push notifications and authentication flows.",
+          skill2: "Integration with mobile payment gateways and wallets.",
+          skill3: "Push notifications and secure authentication flows.",
         },
       },
       {
@@ -205,17 +205,17 @@ export const content = {
     service_content: [
       {
         title: "Full-Stack Web Development",
-        para: "Building robust, scalable, and responsive web applications using modern frameworks like React, Next.js, Node.js, and Django/FastAPI.",
+        para: "Building robust, scalable, and secure web applications using React, Next.js, Node.js, and Django/FastAPI, including FinTech platforms for remittance, crowdfunding, insurance, and premium financing.",
         logo: services_logo1,
       },
       {
-        title: "Backend Engineering",
-        para: "Designing secure and scalable APIs, microservices, and real-time systems with Node.js, FastAPI, Django Rest Framework, and event-driven architectures.",
+        title: "Backend Engineering & FinTech Systems",
+        para: "Designing secure and scalable APIs, microservices, and real-time systems. Specialization in FinTech workflows: remittance, digital wallets, crowdfunding platforms, premium financing, and insurance systems.",
         logo: services_logo3,
       },
       {
         title: "Mobile Development",
-        para: "Cross-platform mobile apps with React Native and Flutter, deployed to App Store and Play Store with optimized performance.",
+        para: "Cross-platform mobile apps with React Native and Flutter, integrated with payment systems, digital wallets, and FinTech backend APIs.",
         logo: services_logo2,
       },
     ],
@@ -232,17 +232,17 @@ export const content = {
         link: "https://shemeta.netlify.app/",
       },
       {
-        title: "Kacha App",
+        title: "Kacha App (FinTech Wallet)",
         image: project2,
         link: "https://play.google.com/store/search?q=kacha&c=apps",
       },
       {
-        title: "Dire MFI",
+        title: "Dire MFI (Crowdfunding & Lending)",
         image: project6,
         link: "https://play.google.com/store/search?q=dire+mfi&c=apps",
       },
       {
-        title: "Portfolio",
+        title: "Portfolio Website",
         image: project7,
         link: "https://github.com/gechderib/portfolio.git",
       },
@@ -270,19 +270,19 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“Getachew was excellent in understanding our requirements and delivered a scalable solution. Communication was clear and the project was completed ahead of schedule.”",
+          "“Getachew delivered a secure, reliable FinTech solution for our remittance platform. Highly professional and responsive.”",
         img: avatar1,
         name: "Saim Ahmed",
       },
       {
         review:
-          "“A very reliable developer who cares about long-term client success. Delivers on time without compromising quality.”",
+          "“A dependable software engineer who understands complex business workflows in insurance and crowdfunding platforms.”",
         img: avatar2,
         name: "Karthik Varma",
       },
       {
         review:
-          "“Perfect implementation! He followed the requirements closely and delivered beyond expectations.”",
+          "“Perfect implementation of premium financing APIs! The system was scalable and delivered ahead of schedule.”",
         img: avatar3,
         name: "Viego Kastradze",
       },
@@ -291,10 +291,10 @@ export const content = {
 
   Hireme: {
     title: "Hire Me",
-    subtitle: "Let’s Build Together",
+    subtitle: "Let’s Build FinTech Solutions Together",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "I’m Getachew Derib, a full-stack software engineer with 4+ years of experience designing and developing web, mobile, and backend applications. I specialize in building scalable systems using React, Next.js, Node.js, FastAPI, and Django. My mission is to translate business requirements into high-quality, maintainable, and impactful solutions.",
+    para: "I’m Getachew Derib, a full-stack software engineer with 4+ years of experience in web, mobile, and backend development. I specialize in FinTech platforms, including remittance, digital wallets, crowdfunding, premium financing, and insurance systems. I design scalable, secure, and maintainable solutions using React, Next.js, Node.js, FastAPI, and Django.",
     btnText: "Hire Me",
   },
 
