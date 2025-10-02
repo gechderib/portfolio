@@ -156,16 +156,6 @@ export const content = {
         },
       },
       {
-        name: "Flutter",
-        para: "Cross-platform app development with Dart.",
-        logo: flutter,
-        skills: {
-          skill1: "High-performance UI with customizable widgets.",
-          skill2: "Multi-platform deployment with single codebase.",
-          skill3: "Integration with REST and GraphQL APIs.",
-        },
-      },
-      {
         name: "Tailwind CSS",
         para: "Utility-first CSS for modern UIs.",
         logo: tail,
