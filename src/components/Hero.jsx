@@ -20,7 +20,7 @@ const Hero = () => {
         
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title} gggggggggg</h2>
+          <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-between items-center">
             <button
@@ -35,7 +35,7 @@ const Hero = () => {
             </button>
             <div    onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1oweIJJt-atBzR6xdqiJxSJuQQDm8BPz5/view?usp=sharing"
+                  "https://docs.google.com/document/d/1-8v9B6KltLrxIT912spIP3CIrdWgi_yo3dRiMO6_A78/edit?usp=sharing"
                 );
               }} className="underline cursor-pointer">Download Resume</div>
           </div>
