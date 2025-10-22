@@ -20,7 +20,7 @@ const Hero = () => {
         
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+          <h2>{hero.title} gggggggggg</h2>
           <br />
           <div className="flex justify-between items-center">
             <button
