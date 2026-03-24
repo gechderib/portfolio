@@ -29,7 +29,7 @@ export const content = {
     image: asset("Hero/gech1.png"),
     media: [{ type: "image", src: asset("Hero/gech1.png"), alt: "Getachew Derib" }],
     hero_content: [
-      { id: "hc-1", count: "4+", text: "Years of experience in software engineering and full-stack development" },
+      { id: "hc-1", count: "5+", text: "Years of experience in software engineering and full-stack development" },
       { id: "hc-2", count: "10+", text: "Projects delivered across web, mobile, and backend platforms" },
       { id: "hc-3", count: "3+", text: "FinTech projects: remittance, crowdfunding, insurance & premium financing" },
     ],
@@ -208,7 +208,7 @@ export const content = {
     title: "Services",
     subtitle: "What I Offer",
     service_content: [
-            {
+      {
         id: "svc-backend",
         title: "Backend Engineering",
         para: "Designing secure and scalable APIs, microservices, and real-time systems. Specialization in FinTech workflows: remittance, digital wallets, crowdfunding platforms, premium financing, and insurance systems.",
@@ -254,7 +254,8 @@ export const content = {
       { id: "proj-1", title: "Digital Marketing Website", image: asset("Projects/img1.jpg"), link: "https://github.com/gechderib", createdAt: now },
       { id: "proj-5", title: "Hospital Management System", image: asset("Projects/img4.jpg"), link: "https://github.com/SolomonKassahun/-front-end-with-browser-local-storage-Hospital-Mangment-System.git", createdAt: now },
       { id: "proj-6", title: "Dating App", image: asset("Projects/img5.jpg"), link: "https://github.com/gechderib/Dating_app_RustPlusApi.git", createdAt: now },
-      { id: "proj-7", title: "Maintenance Platform", image: asset("Projects/img3.png"), link: "https://github.com/gechderib/Maintenance_Nodejs_Backend.git", createdAt: now },
+      { id: "proj-7", title: "Maintenance Platform", image: asset("Projects/img3.png"), link: "https://github.com/gechderib/p2pkilosales_backend.git", createdAt: now },
+      { id: "proj-8", title: "P2P Kilo Sell", image: asset("Projects/img10.png"), link: "https://github.com/gechderib/p2pkilosales_backend.git", createdAt: now },
     ],
     createdAt: now,
     updatedAt: now,
